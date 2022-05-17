@@ -19,17 +19,17 @@ nuevo jugador del WorldCraft ASCII, para ello se solicita el CDIA
 cadena de 10 caracteres que debe cumplir con las siguientes
 restricciones y las cuales deben ser validadas por el programa una
 vez se ingresa:
-• Se debe verificar que el CDIA sea de tipo str exclusivamente y<br>
-sin dígitos numéricos
-• En la posición 6 de la cadena del CDIA debe ir siempre el<br>
-carácter arroba (‘@’)
-• El carácter en la primera posición y el carácter en la última<br>
-posición del CDIA deben ser diferentes.
-• El CDIA debe contener en cualquier posición de la cadena el<br>
-carácter arroba (‘+’)
-• El código CDIA no debe contener más de 3 veces la letra ’k’<br>
-• El CDIA debe tener al menos uno de los siguientes símbolos<br>
-(‘?’,’=’,’&’)
+• Se debe verificar que el CDIA sea de tipo str exclusivamente y
+sin dígitos numéricos<br>
+• En la posición 6 de la cadena del CDIA debe ir siempre el
+carácter arroba (‘@’)<br>
+• El carácter en la primera posición y el carácter en la última
+posición del CDIA deben ser diferentes.<br>
+• El CDIA debe contener en cualquier posición de la cadena el
+carácter arroba (‘+’) <br>
+• El código CDIA no debe contener más de 3 veces la letra ’k’ <br>
+• El CDIA debe tener al menos uno de los siguientes símbolos
+(‘?’,’=’,’&’) <br>
 Si el CDIA no cumple con alguna de estas reglas se debe presentar
 el mensaje “CDIA inválido”
 Adicionalmente, el administrador del juego ha proporcionado una
@@ -48,15 +48,15 @@ búsqueda de un CDIA.
 Cuando un nuevo jugador es admitido al WorldCraft ASCII se le
 debe asignar un Mundo para iniciar a jugar de acuerdo a las
 siguientes reglas:
-• Mundo 1: jugadores entre 12 y 20 años que no han jugado antes.<br>
-• Mundo 2: jugadores entre 12 y 20 años que ya han jugado antes<br>
+• Mundo 1: jugadores entre 12 y 20 años que no han jugado antes. <br>
+• Mundo 2: jugadores entre 12 y 20 años que ya han jugado antes <br>
 y su nivel actual es menor a 50.
-• Mundo 3: jugadores entre 12 y 20 años que ya han jugado antes<br>
+• Mundo 3: jugadores entre 12 y 20 años que ya han jugado antes <br>
 y su nivel actual es mayor o igual a 50.
-• Mundo 4: jugadores mayores a 20 años que no han jugado antes<br>
-• Mundo 5: jugadores mayores a 20 años que ya han jugado antes<br>
+• Mundo 4: jugadores mayores a 20 años que no han jugado antes <br>
+• Mundo 5: jugadores mayores a 20 años que ya han jugado antes <br>
 y su nivel actual es menor a 50.
-• Mundo 5: jugadores mayores a 20 años que ya han jugado antes<br>
+• Mundo 5: jugadores mayores a 20 años que ya han jugado antes <br>
 y su nivel actual es mayor o igual a 50.
 Si la edad del jugador es mayor o igual a 16 años y ya ha jugado
 antes debe ser enviado al nivel que tenía antes más 2, si no había
